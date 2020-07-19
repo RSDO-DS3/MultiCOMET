@@ -1,0 +1,19 @@
+{
+    "base": {
+        "0": {
+            "gpu_index": 0,
+            "batch_size": 6,
+            "iterations": 50000,
+            "cycle": 10000
+        },
+        "1": {
+            "gpu_index": 1
+        },
+        "2": {
+            "gpu_index": 2
+        },
+        "3": {
+            "gpu_index": 3
+        }
+    }
+}

@@ -1,0 +1,23 @@
+training new model:
+make new loader, copy it to Multi_COMET_Data, change its name to describe it
+when training model make sure to use the loader (filename for loader with slashes ONLY starting from base directory)
+
+Training models from GitBash:
+First SET the loader name in functions.py, then train model 
+ENGLISH:
+SLOVENE:
+
+Using new model: 
+First SET the loader name in functions.py, then run the model file in GitBash
+example:
+python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Model_It50k_maxE50.pickle
+
+Running model files for GitBash:
+ENGLISH
+python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Model_It50k_maxE50.pickle
+SLOVENE
+python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/Slovene/Slo_Model_It50k_maxE50.pickle
+
+
+
+For more info check CometTutorial

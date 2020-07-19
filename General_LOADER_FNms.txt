@@ -1,0 +1,5 @@
+Slovene Loader with MaxEvent=40, no other changes
+data/atomic/processed/generation\categories_oEffect#oReact#oWant#xAttr#xEffect#xIntent#xNeed#xReact#xWant-maxe1_40-maxe2_35-maxr_1.pickle
+
+English Loader with MaxEvent=99, no other changes
+data/atomic/processed/generation\categories_oEffect#oReact#oWant#xAttr#xEffect#xIntent#xNeed#xReact#xWant-maxe1_99-maxe2_35-maxr_1.pickle
