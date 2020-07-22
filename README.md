@@ -81,7 +81,7 @@ See **Model Training Paramters** to modify more training parameters
 
 ## Running Model Tests
 The file **InputEvents.txt** in the project's root directory should include all the events your model should be tested on.  
-The sentences are separated by a Newline character  <br />
+The sentences are separated by a Newline character  
 For example:
 ```
 PersonX goes to the store
