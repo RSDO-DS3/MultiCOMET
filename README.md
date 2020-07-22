@@ -11,6 +11,7 @@ These instructions will get you a copy of the project on your local machine for 
 Installed [Git Bash](https://git-scm.com/downloads)  
 25 GB of Storage
 
+INSTALL ANACONDA AND ENSURE ITS DIRECTORY WHERE IT STORES THE INSTALLED PACKAGES IS IN YOUR USER PATH VARIABLES (CHECK YOUR OWN ENVIRONMENT VARIABLES TO SEE)
 ### Installing
 
 Clone the repository
