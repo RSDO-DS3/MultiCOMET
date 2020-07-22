@@ -48,9 +48,10 @@ In the project's root directory, run:
 ```
 python src/main.py --experiment_type atomic --experiment_num 0
 ```
-Check  [Model Training Parameters](#Model Training Parameters)  
-
+See "Model Training Paramters" to modify training parameters
+--experiment_num can be changed to train the model with different parameters
 ## Running Model Tests
+
 ## Evaluating Models
 
 ## Built With
