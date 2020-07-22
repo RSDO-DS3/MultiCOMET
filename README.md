@@ -71,6 +71,8 @@ In the project's root directory, run:
 ```
 python scripts/interactive/atomic_single_example.py --model_file PATH_TO_YOUR_MODEL --loader_path PATH_TO_YOUR_LOADER
 ```
+***--model_file*** path to the model you would like to test
+***--loader_path*** path to the loader your model was trained on
 For example:
 ```
 python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Model_It50k_maxE50.pickle --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
