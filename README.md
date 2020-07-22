@@ -48,7 +48,7 @@ To modify the parameters go to:
 config\atomic\changes.json
 ```
 The JSON keys numbered from 0 to 3 are different experiments each with their independent set of parameters that can be used to train models.  
-You can select which experiment to use for training with the ***experiment_num*** parameter in ***Running Model Tests***
+You can select which experiment to use for training with the ***--experiment_num*** parameter in ***Running Model Tests***
 ## Training Your Own Model  
 ### Custom Data  
 To use your own training/testing/development data, replace the files
