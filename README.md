@@ -8,11 +8,8 @@ These instructions will get you a copy of the project on your local machine for 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Installed [Git Bash](https://git-scm.com/downloads)  
+25 GB of Storage
 
 ### Installing
 
@@ -38,6 +35,7 @@ data/atomic/v4_atomic_tst.csv  (data for testing/evaluation0
 ```
 with your own CSV files with the same name and format
 ### Making Data The Data Loader  
+In the project's root directory, run:
 
 ### Training Your Model  
 
