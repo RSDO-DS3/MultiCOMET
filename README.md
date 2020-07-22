@@ -26,7 +26,17 @@ Run the Github setup script (Downloads larger project files):
 bash Setup/GithubSetup.sh
 ```
 ## Changing Parameters
-### Model Data Parameters
+
+### Model Data Parameters (SHOULD I INCLUDE THIS? COMPLICATED/UGLY EXPLANATION AND NOT THAT IMPORTANT)
+
+Before creating your data loader and training your model, you can change 2 parameters to impact the maximum length of your input and output text.
+**Maximum Input Event Tensors?????**  
+Maximum tensors per input event, increase this if you're training or testing the model on long events  
+Change this by adjusting the following values:  
+```
+```
+**Maximum Output Effect Tensors???**  
+Maximum tensors per output effect, increase this if you would like generally longer but less accurate outputs
 ### Model Training Parameters
 To view default Model training parameters go to:
 ```
