@@ -30,7 +30,7 @@ bash Setup/GithubSetup.sh
 ```
 ## Training Your Own Model  
 ### Input Data  
-### Making Data A Data Loader  
+### Making Data The Data Loader  
 ### Training Your Model  
 
 ## Running Model Tests
