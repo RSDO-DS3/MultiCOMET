@@ -28,9 +28,6 @@ Run the Github setup script (Downloads larger project files):
 ```
 bash Setup/GithubSetup.sh
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Training Your Own Model
 ###Input Data
 ###Making Data A Data Loader
