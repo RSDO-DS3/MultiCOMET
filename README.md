@@ -15,7 +15,7 @@ Installed [Git Bash](https://git-scm.com/downloads)
 
 Clone the repository
 ```
-git clone https://github.com/AMGrobelnik/MultiCometWeb
+git clone https://github.com/AMGrobelnik/MultiComet
 ```
 Navigate into the project's root directory:
 ```
