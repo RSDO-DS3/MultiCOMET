@@ -28,6 +28,17 @@ bash Setup/GithubSetup.sh
 ## Changing Parameters
 ### Model Data Parameters
 ### Model Training Parameters
+To view default Model training parameters go to:
+```
+config\default.json  
+config\atomic\default.json
+```
+To modify the parameters go to:
+```
+config\atomic\changes.json
+```
+The JSON keys numbered from 0 to 3 are different experiments each with their independent set of parameters that can be used to train models.  
+You can select which experiment to use for training with the ***experiment_num*** parameter in ***Running Model Tests***
 ## Training Your Own Model  
 ### Custom Data  
 To use your own training/testing/development data, replace the files
@@ -59,7 +70,7 @@ python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MUL
 See **Model Training Paramters** to modify more training parameters
 
 ## Running Model Tests
-The file ***InputEvents.txt** in the project's root directory should include all the events your model should be tested on.  
+The file **InputEvents.txt** in the project's root directory should include all the events your model should be tested on.  
 The sentences are separated by a Newline character  
 For example:
 ```
