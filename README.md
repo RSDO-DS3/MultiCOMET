@@ -29,8 +29,16 @@ Run the Github setup script (Downloads larger project files):
 bash Setup/GithubSetup.sh
 ```
 ## Training Your Own Model  
-### Input Data  
+### Custom Data  
+To use your own training data, replace the files
+```
+data/atomic/v4_atomic_dev.csv  (data for development)
+data/atomic/v4_atomic_trn.csv  (training data)
+data/atomic/v4_atomic_tst.csv  (data for testing/evaluation0
+```
+with your own CSV files with the same name and format
 ### Making Data The Data Loader  
+
 ### Training Your Model  
 
 ## Running Model Tests
