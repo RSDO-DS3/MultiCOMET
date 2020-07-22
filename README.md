@@ -72,7 +72,7 @@ In the project's root directory, run:
 python src/main.py --experiment_type atomic --experiment_num YOUR_EXPERIMENT_NUMBER --loader_path PATH_TO_YOUR_LOADER
 ```
 ***--experiment_num*** can be changed to train the model with a different experiment's parameters  
-***--loader_path*** can be changed to train the model with a different data Loader
+***--loader_path*** can be changed to train the model with a different data Loader  
 For Example:
 ```
 python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
@@ -80,8 +80,8 @@ python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MUL
 See **Model Training Paramters** to modify more training parameters
 
 ## Running Model Tests
-The file **InputEvents.txt** in the project's root directory should include all the events your model should be tested on.  
-The sentences are separated by a Newline character  
+The file **InputEvents.txt** in the project's root directory should include all the events your model will be tested on.  
+The events are separated by a Newline character  
 For example:
 ```
 PersonX goes to the store
@@ -92,7 +92,7 @@ In the project's root directory, run:
 ```
 python scripts/interactive/atomic_single_example.py --model_file PATH_TO_YOUR_MODEL --loader_path PATH_TO_YOUR_LOADER
 ```
-***--model_file*** path to the model you would like to test
+***--model_file*** path to the model you would like to test  
 ***--loader_path*** path to the loader your model was trained on  
 For example:
 ```
