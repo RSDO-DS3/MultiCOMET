@@ -50,8 +50,8 @@ In the project's root directory, run:
 ```
 python src/main.py --experiment_type atomic --experiment_num YOUR_EXPERIMENT_NUMBER --loader_path PATH_TO_YOUR_LOADER_PATH
 ```
---experiment_num can be changed to train the model with different parameters
---loader_path can be changed to train the model with a different data Loader
+***--experiment_num*** can be changed to train the model with different parameters  
+***--loader_path*** can be changed to train the model with a different data Loader
 For Example:
 ```
 python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
@@ -59,8 +59,8 @@ python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MUL
 See "Model Training Paramters" to modify more training parameters
 
 ## Running Model Tests
-The file "InputEvents.txt" in the project's root directory should include all the events your model should be tested on.
-The sentences are separated by a Newline character
+The file "InputEvents.txt" in the project's root directory should include all the events your model should be tested on.  
+The sentences are separated by a Newline character  
 For example:
 ```
 PersonX goes to the store
@@ -81,8 +81,6 @@ As the module creates Tags for the events, they will be output to "COMETTags.jso
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
 
