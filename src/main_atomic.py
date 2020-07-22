@@ -14,7 +14,7 @@ from src.data.utils import TextEncoder
 from src.train.opt import OpenAIAdam
 
 
-def main(num):
+def main(num, LoaderPath=""):
     # Generate configuration files depending on experiment being run
     utils.generate_config_files("atomic", num)
 
@@ -57,7 +57,17 @@ def main(num):
         opt.exp, utils.make_name_string(opt.data))##############how is path made??
 
     data_loader = data.make_data_loader(opt, categories)#just copies init of data loader
-    loaded = data_loader.load_data(path)#######DATA LOADER PATH 
+    #OLD#loaded = data_loader.load_data(path)#######DATA LOADER PATH 
+    #NEW TRY
+    #loaded = data_loader.load_data("MULTI_COMET_DATA\It50k_MaxE50\Slovene\Slo_Loader_It50k_maxE50.pickle")#######DATA LOADER PATH 
+    if(LoaderPath==""):
+      #OLD#
+      loaded = data_loader.load_data(path)#######DATA LOADER PATH 
+    else:
+      #NEW#
+      loaded = data_loader.load_data(LoaderPath)
+    ############
+
     print(data_loader.sequences["train"]["total"].size(0))
     data_loader.opt = opt
     data_loader.batch_size = opt.train.dynamic.bs
