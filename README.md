@@ -64,7 +64,7 @@ In the project's root directory, run:
 ```
 python scripts/data/make_atomic_data_loader.py
 ```
-Save the relative file path to the data loader given for later use.
+Save the relative file path for the data loader given in the terminal output for later use.
 
 ### Training Your Model  
 In the project's root directory, run:
