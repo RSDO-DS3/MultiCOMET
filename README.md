@@ -30,19 +30,25 @@ bash Setup/GithubSetup.sh
 ### Model Training Parameters
 ## Training Your Own Model  
 ### Custom Data  
-To use your own training data, replace the files
+To use your own training/testing/development data, replace the files
 ```
 data/atomic/v4_atomic_dev.csv  (data for development)
 data/atomic/v4_atomic_trn.csv  (training data)
 data/atomic/v4_atomic_tst.csv  (data for testing/evaluation0
 ```
-with your own CSV files with the same name and format
+with your own CSV files with the same names and formats
 ### Making Data The Data Loader  
 In the project's root directory, run:
 ```
-
+python scripts/data/make_atomic_data_loader.py
 ```
+Save the relative file path to the data loader given for later use.
 ### Training Your Model  
+In the project's root directory, run:
+```
+python src/main.py --experiment_type atomic --experiment_num 0
+```
+Check  [Model Training Parameters](#Model Training Parameters)  
 
 ## Running Model Tests
 ## Evaluating Models
