@@ -18,9 +18,9 @@ def load_model_file(model_file):
 
     return opt, state_dict
 
-def load_data(dataset, opt):
+def load_data(dataset, opt, LoaderPath=""):
     if dataset == "atomic":
-        data_loader = load_atomic_data(opt)
+        data_loader = load_atomic_data(opt, LoaderPath)
     elif dataset == "conceptnet":
         data_loader = load_conceptnet_data(opt)
 
@@ -41,7 +41,7 @@ def load_data(dataset, opt):
     return data_loader, text_encoder
 
 
-def load_atomic_data(opt):
+def load_atomic_data(opt, LoaderPath=""):
     # Hacky workaround, you may have to change this
     # if your models use different pad lengths for e1, e2, r
     ###################SET MAXE1, MAXE2 HERE ASWELL
@@ -58,11 +58,15 @@ def load_atomic_data(opt):
     data_loader = data.make_data_loader(opt, opt.data.categories)
     #loaded = data_loader.load_data(path)###OLD####
     #ADRIAN ADDED##############################CHANGE FOR DIFF LOADER
-  
-    FPathEng = 'MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle'
-    FPathSlo = 'MULTI_COMET_DATA/It50k_MaxE50/Slovene/Slo_Loader_It50k_maxE50.pickle'
-    print("IS VALID FILE: ", os.path.isfile(FPathSlo))
-    loaded = data_loader.load_data(FPathSlo)
+    if(LoaderPath ==""):
+      print('No loader path provided, using defalut loader');
+      loaded = data_loader.load_data(path)###OLD####
+    else:
+      print("Loader Path Provided:", LoaderPath)
+      #FPathEng = 'MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle'
+      #FPathSlo = 'MULTI_COMET_DATA/It50k_MaxE50/Slovene/Slo_Loader_It50k_maxE50.pickle'
+      print("IS VALID FILE: ", os.path.isfile(LoaderPath))
+      loaded = data_loader.load_data(LoaderPath)
     ##########################
     #print(data_loader.vocab_encoder)#DEBUG
 
