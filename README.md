@@ -28,10 +28,10 @@ Run the Github setup script (Downloads larger project files):
 ```
 bash Setup/GithubSetup.sh
 ```
-## Training Your Own Model
-###Input Data
-###Making Data A Data Loader
-###Training Your Model
+## Training Your Own Model  
+###Input Data  
+###Making Data A Data Loader  
+###Training Your Model  
 
 ## Running Model Tests
 ## Evaluating Models
