@@ -46,12 +46,20 @@ Save the relative file path to the data loader given for later use.
 ### Training Your Model  
 In the project's root directory, run:
 ```
-python src/main.py --experiment_type atomic --experiment_num 0
+python src/main.py --experiment_type atomic --experiment_num YOUR_EXPERIMENT_NUMBER --loader_path YOUR_RELATIVE_LOADER
 ```
-See "Model Training Paramters" to modify training parameters
 --experiment_num can be changed to train the model with different parameters
+--loader_path can be changed to train the model with a different data Loader
+For Example:
+```
+python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
+```
+See "Model Training Paramters" to modify more training parameters
 ## Running Model Tests
-
+In the project's root directory, run:
+```
+python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Model_It50k_maxE50.pickle --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
+```
 ## Evaluating Models
 
 ## Built With
