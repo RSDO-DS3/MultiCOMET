@@ -9,6 +9,7 @@ These instructions will get you a copy of the project on your local machine for 
 ### Prerequisites
 
 Installed [Git Bash](https://git-scm.com/downloads)  
+Installed [Anaconda](https://www.anaconda.com/products/individual)
 25 GB of Storage
 
 INSTALL ANACONDA AND ENSURE ITS DIRECTORY WHERE IT STORES THE INSTALLED PACKAGES IS IN YOUR USER PATH VARIABLES (CHECK YOUR OWN ENVIRONMENT VARIABLES TO SEE)
