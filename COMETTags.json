@@ -3,64 +3,40 @@
     "EventId" : 0,
     "EventStr" : "PersonX ljudem prinese ___",
     "oEffect" : [
-"none", "to go home", "to go home .", "to make money", "to make amends"
+"none", "they learn from personx", "they learn a new skill", "they learn something new", "they learn a lot"
       ]
 ,    "oReact" : [
-"none", "happy", "grateful", "satisfied", "to be helpful"
+"none", "annoyed", "happy", "angry", "sad"
       ]
 ,    "oWant" : [
-"none", "to go home", "to get a job", "to go home .", "to make amends"
+"none", "to listen to personx", "to get to know personx better", "to get to know personx", "to learn more about personx"
       ]
 ,    "xAttr" : [
-"happy", "smart", "none", "strong", "proud"
+"smart", "intelligent", "determined", "knowledgeable", "adventurous"
       ]
 ,    "xEffect" : [
-"none", "to get a job", "to get a job .", "to make money", "to make amends"
+"none", "gets yelled at", "personx is asked questions", "personx is asked to leave", "gets arrested"
       ]
 ,    "xIntent" : [
-"to go home", "none", "to go home .", "to get a job", "to make amends"
+"none", "to be a good person", "to have fun", "to be understood", "to make money"
       ]
 ,    "xNeed" : [
-"none", "to go home", "to go home .", "to go home . none", "to make amends"
+"none", "to know how to do it", "to learn the language", "to know how to do something", "to have a problem"
       ]
 ,    "xReact" : [
-"none", "happy", "proud", "grateful", "satisfied"
+"happy", "satisfied", "good", "accomplished", "proud"
       ]
 ,    "xWant" : [
-"to go home", "to get out of the car", "to get out of the house", "to get out of bed", "to go home ."
+"to go home", "to get a job", "to get a good grade", "to go home and rest", "to be successful"
       ]
   }
 ,  {
     "EventId" : 1,
     "EventStr" : "PersonX strada ___ v oddajo",
     "oEffect" : [
-"none", "to go home", "to go home .", "to make money", "to make amends"
+"none", "they learn a new skill", "they learn a new skill .", "they learn something new", "they learn a lot"
       ]
 ,    "oReact" : [
-"none", "to get a job", "to get a job .", "to be helpful", "happy"
+"none", "happy", "annoyed", "grateful", "scared"
       ]
-,    "oWant" : [
-"none", "to go home", "to go home .", "to make a decision", "to make amends"
-      ]
-,    "xAttr" : [
-"happy", "none", "smart", "strong", "proud"
-      ]
-,    "xEffect" : [
-"none", "to get a job", "to get a job .", "to make money", "to make amends"
-      ]
-,    "xIntent" : [
-"to go home", "to take a shower", "to take a nap", "none", "to go home ."
-      ]
-,    "xNeed" : [
-"none", "to go home", "to go home .", "to go to work", "to make amends"
-      ]
-,    "xReact" : [
-"none", "happy", "proud", "satisfied", "to be helpful"
-      ]
-,    "xWant" : [
-"to go home", "to get out of the car", "to get out of the house", "to get out of bed", "to go home ."
-      ]
-  }
-,  {
-    "EventId" : 2,
-    "EventStr" : "PersonX prepriča vsakega ___",
+,
