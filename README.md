@@ -34,8 +34,6 @@ pip install ipython
 
 ```
 
-Create a new environment in Anaconda navigator with Python 3.6
-![Image Not Found](https://i.ibb.co/HrPMLgk/Annotation-2020-07-24-132249.png)
 
 Clone the repository
 ```
