@@ -10,9 +10,8 @@ These instructions will get you a copy of the project on your local machine for 
 
 Installed [Git Bash](https://git-scm.com/downloads)  
 Installed [Anaconda](https://www.anaconda.com/products/individual)  
-25 GB of Storage
+30 GB of Storage
 
-INSTALL ANACONDA AND ENSURE ITS DIRECTORY WHERE IT STORES THE INSTALLED PACKAGES IS IN YOUR USER PATH VARIABLES (CHECK YOUR OWN ENVIRONMENT VARIABLES TO SEE)
 ### Installing
 After initializing your terminal to run Conda,
 Open your terminal as administrator,
