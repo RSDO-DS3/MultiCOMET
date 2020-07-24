@@ -32,18 +32,13 @@ pip install tqdm
 pip install pandas
 pip install ipython
 ```
-
-
 Clone the repository
 ```
 git clone https://github.com/AMGrobelnik/MultiComet
 ```
-Navigate into the project's root directory:
+Navigate into the project's root directory and run the Github setup script (Downloads larger project files):
 ```
 cd MultiComet
-```
-Run the Github setup script (Downloads larger project files):
-```
 bash Setup/GithubSetup.sh
 ```
 ## Changing Parameters
