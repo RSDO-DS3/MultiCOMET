@@ -9,11 +9,17 @@ These instructions will get you a copy of the project on your local machine for 
 ### Prerequisites
 
 Installed [Git Bash](https://git-scm.com/downloads)  
-Installed [Anaconda](https://www.anaconda.com/products/individual)
+Installed [Anaconda](https://www.anaconda.com/products/individual)  
 25 GB of Storage
 
 INSTALL ANACONDA AND ENSURE ITS DIRECTORY WHERE IT STORES THE INSTALLED PACKAGES IS IN YOUR USER PATH VARIABLES (CHECK YOUR OWN ENVIRONMENT VARIABLES TO SEE)
 ### Installing
+If you haven't already, install Python 3.6 in the Anaconda prompt:
+```
+conda install python 3.6
+```
+Create a new environment in Anaconda navigator with Python 3.6
+![Image Not Found](https://i.ibb.co/HrPMLgk/Annotation-2020-07-24-132249.png)
 
 Clone the repository
 ```
