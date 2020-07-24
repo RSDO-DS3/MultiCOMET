@@ -77,7 +77,7 @@ data/atomic/v4_atomic_tst.csv  (data for testing/evaluation0
 ```
 with your own CSV files with the same names and formats
 
-### Making Data The Data Loader  
+### Making Your Own Data Loader  
 In the project's root directory, run:
 ```
 python scripts/data/make_atomic_data_loader.py
@@ -85,7 +85,7 @@ python scripts/data/make_atomic_data_loader.py
 Save the relative file path for the data loader given in the terminal output for later use.
 
 ### Training The Model  
-After creating your data loader, in the project's root directory, run:
+In the project's root directory, run:
 ```
 python src/main.py --experiment_type atomic --experiment_num YOUR_EXPERIMENT_NUMBER --loader_path PATH_TO_YOUR_LOADER
 ```
