@@ -10,7 +10,7 @@ These instructions will get you a copy of the project on your local machine for 
 
 Installed [Git Bash](https://git-scm.com/downloads)  
 Installed [Anaconda](https://www.anaconda.com/products/individual)  
-30 GB of Storage
+20 GB of Storage
 
 ### Installing
 After initializing your terminal to run Conda,
