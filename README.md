@@ -93,7 +93,7 @@ python src/main.py --experiment_type atomic --experiment_num YOUR_EXPERIMENT_NUM
 ***--loader_path*** can be changed to train the model with a different data Loader  
 For Example:
 ```
-python src/main.py --experiment_type atomic --experiment_num 0 --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
+python src/main.py --experiment_type atomic --experiment_num 1 --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
 ```
 See **Model Training Paramters** to modify more training parameters
 
