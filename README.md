@@ -121,16 +121,15 @@ As the module creates Tags for the events, they will be output to **COMETTags.js
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [COMET: Commonsense Transformers for Automatic Knowledge Graph Construction](https://github.com/atcbosselut/comet-commonsense) - The project MultiCOMET was forked from
+* [Pytorch](https://pytorch.org/) - Used for training models
 
 ## Authors
 
-* **Adrian Mladenic Grobelnik** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Adrian Mladenic Grobelnik** - *Software development and research* - [AMGrobelnik](https://github.com/AMGrobelnik)
+* [**Dunja Mladenic**](https://ailab.ijs.si/dunja_mladenic/) - *Research and developemnt*
+* [**Marko Grobelnik**](https://ailab.ijs.si/marko_grobelnik/) - *Software design and research*
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
