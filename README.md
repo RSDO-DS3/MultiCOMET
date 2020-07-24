@@ -18,7 +18,6 @@ After initializing your terminal to run Conda,
 create a new Conda environment for the project with python 3.6:
 ```
 conda create --name multicomet python=3.6
-
 ```
 Activate your new environment and install the following dependencies:
 ```
@@ -31,7 +30,6 @@ pip install tensorboardX
 pip install tqdm
 pip install pandas
 pip install ipython
-
 ```
 
 
