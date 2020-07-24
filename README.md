@@ -19,7 +19,9 @@ create a new Conda environment for the project with python 3.6:
 ```
 conda create --name multicomet python=3.6
 ```
+Ensure this environment is activated before executing any project code  
 Activate your new environment and install the following dependencies inside:
+
 ```
 conda activate multicomet
 pip install tensorflow
@@ -32,8 +34,7 @@ pip install pandas
 pip install ipython
 conda install -c pytorch pytorch
 ```
-Ensure this environment is activated before executing any project code  
-Clone the repository
+Clone the repository:
 ```
 git clone https://github.com/AMGrobelnik/MultiComet
 ```
