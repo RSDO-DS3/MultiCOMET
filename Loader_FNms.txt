@@ -1,0 +1,10 @@
+English Iterations = 50000 Max Event = 50
+MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
+
+Slovene Iterations = 50000 Max Event = 50
+MULTI_COMET_DATA/It50k_MaxE50/Slovene/Slo_Loader_It50k_maxE50.pickle
+
+
+
+
+
