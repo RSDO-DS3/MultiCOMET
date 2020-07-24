@@ -14,12 +14,13 @@ Installed [Anaconda](https://www.anaconda.com/products/individual)
 
 INSTALL ANACONDA AND ENSURE ITS DIRECTORY WHERE IT STORES THE INSTALLED PACKAGES IS IN YOUR USER PATH VARIABLES (CHECK YOUR OWN ENVIRONMENT VARIABLES TO SEE)
 ### Installing
-After initializing your terminal to run Conda,  
+After initializing your terminal to run Conda,
+Open your terminal as administrator,
 create a new Conda environment for the project with python 3.6:
 ```
 conda create --name multicomet python=3.6
 ```
-Activate your new environment and install the following dependencies:
+Activate your new environment and install the following dependencies inside:
 ```
 conda activate multicomet
 pip install tensorflow
