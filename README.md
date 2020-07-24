@@ -14,10 +14,26 @@ Installed [Anaconda](https://www.anaconda.com/products/individual)
 
 INSTALL ANACONDA AND ENSURE ITS DIRECTORY WHERE IT STORES THE INSTALLED PACKAGES IS IN YOUR USER PATH VARIABLES (CHECK YOUR OWN ENVIRONMENT VARIABLES TO SEE)
 ### Installing
-If you haven't already, install Python 3.6 in the Anaconda prompt:
+After initializing your terminal to run Conda,  
+create a new Conda environment for the project with python 3.6:
 ```
-conda install python=3.6
+conda create --name multicomet python=3.6
+
 ```
+Activate your new environment and install the following dependencies:
+```
+conda activate multicomet
+pip install tensorflow
+pip install ftfy==5.1
+conda install -c conda-forge spacy
+python -m spacy download en
+pip install tensorboardX
+pip install tqdm
+pip install pandas
+pip install ipython
+
+```
+
 Create a new environment in Anaconda navigator with Python 3.6
 ![Image Not Found](https://i.ibb.co/HrPMLgk/Annotation-2020-07-24-132249.png)
 
