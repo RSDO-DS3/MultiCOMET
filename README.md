@@ -47,16 +47,6 @@ bash Setup/GithubSetup.sh
 ```
 ## Changing Parameters
 
-### Model Data Parameters (SHOULD I INCLUDE THIS? COMPLICATED/UGLY EXPLANATION AND NOT THAT IMPORTANT)
-
-Before creating your data loader and training your model, you can change 2 parameters to impact the maximum length of your input and output text.
-**Maximum Input Event Tensors?????**  
-Maximum tensors per input event, increase this if you're training or testing the model on long events  
-Change this by adjusting the following values:  
-```
-```
-**Maximum Output Effect Tensors???**  
-Maximum tensors per output effect, increase this if you would like generally longer but less accurate outputs
 ### Model Training Parameters
 To view default Model training parameters go to:
 ```
@@ -75,9 +65,9 @@ To use your own training/testing/development data, replace the files
 ```
 data/atomic/v4_atomic_dev.csv  (data for development)
 data/atomic/v4_atomic_trn.csv  (training data)
-data/atomic/v4_atomic_tst.csv  (data for testing/evaluation0
+data/atomic/v4_atomic_tst.csv  (data for testing/evaluation)
 ```
-with your own CSV files with the same names and formats
+with your own CSV files with exactly the same names and formats
 
 ### Making Your Own Data Loader  
 In the project's root directory, run:
@@ -101,7 +91,7 @@ See **Model Training Paramters** to modify more training parameters
 
 ## Running Model Tests
 The file **InputEvents.txt** in the project's root directory should include all the events your model will be tested on.  
-The events are separated by a Newline character  
+The events are separated by a new line.  
 For example:
 ```
 PersonX goes to the store
@@ -118,8 +108,9 @@ For example:
 ```
 python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Model_It50k_maxE50.pickle --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
 ```
-As the model creates Tags for the events, they will be output to **COMETTags.json** in the project's root directory
+As the model creates tags for the events, they will be output to **COMETTags.json** in the project's root directory
 ## Evaluating Models
+As the metric of evaluation, we recommend using precision @5 comparing the top 5 labels for each tag given by the model for an event in the test dataset, with the top 5 manually provided labels.
 
 ## Built With
 
@@ -136,3 +127,9 @@ As the model creates Tags for the events, they will be output to **COMETTags.jso
 ## License
 
 ## Acknowledgments
+This project was supported by the Slovene Ministry...   
+We would like to thank the authors of COMET and ATOMIC:  
+- Antoine Bosselut and Hannah Rashkin and Maarten Sap and Chaitanya Malaviya and Asli Çelikyilmaz and Yejin Choi (2019), COMET: Commonsense Transformers for Automatic Knowledge Graph Construction, Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).
+- Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi (2019), ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning, arXiv:1811.00146v3 [cs.CL] 7 Feb 2019.
+
+
