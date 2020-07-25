@@ -1,6 +1,8 @@
 # MultiCOMET
 
-One Paragraph of project description goes here
+MultiCOMET provides the user with the tools to train and test their own model for commonsense descriptions in natural language, supporting multilingual input and ouptput.
+The training is performed based on a dataset of sentences,labelled with values of 9 tags, describing a commonsense understanding of the sentence.
+The dataset format is based on the [ATOMIC](https://arxiv.org/pdf/1811.00146.pdf) dataset. The model is trained with code from the [COMET](https://github.com/atcbosselut/comet-commonsense) project.
 
 ## Getting Started
 
@@ -121,8 +123,9 @@ As the model creates Tags for the events, they will be output to **COMETTags.jso
 
 ## Built With
 
-* [COMET: Commonsense Transformers for Automatic Knowledge Graph Construction](https://github.com/atcbosselut/comet-commonsense) - The project MultiCOMET was forked from
-* [Pytorch](https://pytorch.org/) - Used for training models
+* [ATOMIC](https://arxiv.org/pdf/1811.00146.pdf) - dataset of 24,000 labelled sentences for commonsense descriptions in natural language 
+* [COMET](https://github.com/atcbosselut/comet-commonsense) - Deep learning for English commonsense descriptions of sentences
+* [Pytorch](https://pytorch.org/) - Used for training models - open source machine learning library
 
 ## Authors
 
