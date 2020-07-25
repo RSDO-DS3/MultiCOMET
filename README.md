@@ -14,13 +14,13 @@ Installed [Anaconda](https://www.anaconda.com/products/individual)
 
 ### Installing
 After initializing your terminal to run Conda,
-Open your terminal as administrator,
-create a new Conda environment for the project with python 3.6:
+Open your terminal as administrator and create a new Conda environment for the project with Python 3.6:
 ```
 conda create --name multicomet python=3.6
 ```
 Ensure this environment is activated before executing any project code  
-Activate your new environment and install the following dependencies inside:
+
+Open your Conda terminal as administrator, activate your new environment and install the following dependencies inside:
 
 ```
 conda activate multicomet
@@ -116,7 +116,7 @@ For example:
 ```
 python scripts/interactive/atomic_single_example.py --model_file MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Model_It50k_maxE50.pickle --loader_path MULTI_COMET_DATA/It50k_MaxE50/English/Eng_Loader_It50k_maxE50.pickle
 ```
-As the module creates Tags for the events, they will be output to **COMETTags.json** in the project's root directory
+As the model creates Tags for the events, they will be output to **COMETTags.json** in the project's root directory
 ## Evaluating Models
 
 ## Built With
