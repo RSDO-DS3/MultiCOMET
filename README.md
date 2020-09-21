@@ -127,8 +127,10 @@ As the metric of evaluation, we recommend using precision @5 comparing the top 5
 ## License
 
 ## Acknowledgments
-This project was supported by the Slovene Ministry...   
+This project was co-financed by the Republic of Slovenia and the European Union under the European Regional Development Fund. The operation is carried out under the Operational Programme for the Implementation of the EU Cohesion Policy 2014–2020.
+
 We would like to thank the authors of COMET and ATOMIC:  
+
 - Antoine Bosselut and Hannah Rashkin and Maarten Sap and Chaitanya Malaviya and Asli Çelikyilmaz and Yejin Choi (2019), COMET: Commonsense Transformers for Automatic Knowledge Graph Construction, Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).
 - Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi (2019), ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning, arXiv:1811.00146v3 [cs.CL] 7 Feb 2019.
 
