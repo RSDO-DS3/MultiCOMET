@@ -61,7 +61,7 @@ class TextEncoder(object):
 
     def __init__(self, encoder_path, bpe_path):
         self.nlp = spacy.load(
-            'en', disable=['parser', 'tagger', 'ner', 'textcat'])
+            'en_core_web_sm', disable=['parser', 'tagger', 'ner', 'textcat'])
         self.encoder = json.load(open(encoder_path))
         self.decoder = {v: k for k, v in self.encoder.items()}
         #merges = array where each element is 1 line in vocab_40000.bpe
