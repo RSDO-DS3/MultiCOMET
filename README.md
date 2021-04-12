@@ -26,16 +26,16 @@ Open your Conda terminal as administrator, activate your new environment and ins
 
 ```
 conda activate multicomet
-pip install tensorflow
+pip install tensorflow==2.3.0
 pip install ftfy==5.1
-conda install -c conda-forge spacy
+conda install -c conda-forge spacy==2.3.2
 python -m spacy download en
 python -m spacy download en_core_web_sm
-pip install tensorboardX
-pip install tqdm
-pip install pandas
-pip install ipython
-conda install -c pytorch pytorch
+pip install tensorboardX==2.1
+pip install tqdm==4.48.0
+pip install pandas==1.0.5
+pip install ipython==7.16.1
+conda install -c pytorch pytorch==1.5.1
 ```
 Clone the repository:
 ```
