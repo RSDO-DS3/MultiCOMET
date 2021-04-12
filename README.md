@@ -30,6 +30,7 @@ pip install tensorflow
 pip install ftfy==5.1
 conda install -c conda-forge spacy
 python -m spacy download en
+python -m spacy download en_core_web_sm
 pip install tensorboardX
 pip install tqdm
 pip install pandas
