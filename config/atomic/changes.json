@@ -13,10 +13,16 @@
             "cycle": 100
         },
         "2": {
-            "gpu_index": 2
+            "gpu_index": 0,
+            "batch_size": 64,
+            "iterations": 1000,
+            "cycle": 500
         },
         "3": {
-            "gpu_index": 3
+            "gpu_index": 0,
+            "batch_size": 64,
+            "iterations": 100000,
+            "cycle": 10000
         }
     }
 }
