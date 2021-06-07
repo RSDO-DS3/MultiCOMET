@@ -9,8 +9,8 @@
         "1": {
             "gpu_index": 0,
             "batch_size": 6,
-            "iterations": 100,
-            "cycle": 100
+            "iterations": 1000,
+            "cycle": 200
         },
         "2": {
             "gpu_index": 0,
@@ -20,7 +20,25 @@
         },
         "3": {
             "gpu_index": 0,
-            "batch_size":128,
+            "batch_size":32,
+            "iterations": 1000,
+            "cycle": 500
+        },
+             "4": {
+            "gpu_index": 0,
+            "batch_size": 128,
+            "iterations": 1000,
+            "cycle": 1000
+        },
+        "5": {
+            "gpu_index": 0,
+            "batch_size": 128,
+            "iterations": 10000,
+            "cycle": 5000
+        },
+        "6": {
+            "gpu_index": 0,
+            "batch_size": 128,
             "iterations": 200000,
             "cycle": 50000
         }
