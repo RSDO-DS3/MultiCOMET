@@ -41,6 +41,42 @@
             "batch_size": 128,
             "iterations": 1000,
             "cycle": 1000
+        },
+                     "7": {
+            "gpu_index": 0,
+            "batch_size": 32,
+            "iterations": 10000,
+            "cycle": 5000
+        },
+        "8": {
+            "gpu_index": 0,
+            "batch_size": 64,
+            "iterations": 10000,
+            "cycle": 5000
+        },
+        "9": {
+            "gpu_index": 0,
+            "batch_size": 128,
+            "iterations": 10000,
+            "cycle": 5000
+        },
+                     "11": {
+            "gpu_index": 0,
+            "batch_size": 32,
+            "iterations": 200000,
+            "cycle": 50000
+        },
+        "12": {
+            "gpu_index": 0,
+            "batch_size": 64,
+            "iterations": 200000,
+            "cycle": 50000
+        },
+        "13": {
+            "gpu_index": 0,
+            "batch_size":128,
+            "iterations": 200000,
+            "cycle": 50000
         }
     }
 }
